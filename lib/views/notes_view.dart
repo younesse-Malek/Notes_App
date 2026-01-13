@@ -1,10 +1,16 @@
 import 'package:flutter/material.dart';
+import 'package:notes_app/views/widget/notes_view-body.dart';
 
 class NotesView extends StatelessWidget {
   const NotesView({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold();
+    return Scaffold(
+      body: Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 22),
+        child: NotesViewBody(),
+      ),
+    );
   }
 }
