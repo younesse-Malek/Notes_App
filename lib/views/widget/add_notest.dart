@@ -6,11 +6,16 @@ class AddNotesBouttomsheet extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [
-        CoustomTextField(),
-      ],
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 18),
+      child: Column(
+        children: [
+          SizedBox(height: 36),
+          CoustomTextField(hintText: 'Title', maxlines: 1),
+          SizedBox(height: 21),
+          CoustomTextField(hintText: 'Content', maxlines: 6),
+        ],
+      ),
     );
   }
 }
-
