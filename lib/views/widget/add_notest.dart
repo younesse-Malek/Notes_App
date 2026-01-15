@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-class AddNotes extends StatelessWidget {
-  const AddNotes({super.key});
+class AddNotesBouttomsheet extends StatelessWidget {
+  const AddNotesBouttomsheet({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return  Container();
+    return Container();
   }
 }
